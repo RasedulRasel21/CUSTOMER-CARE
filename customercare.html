@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<style type="text/css">
+		.customer-care{
+			display: flex;
+		}
+		.customer-care-left table tr td{
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			text-decoration: none;
+			font-size: 11px;
+			width: 30%;
+			
+		}
+		.customer-care-right{
+			flex: 2;
+		}
+
+
+button.accordion {
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding: 15px 20px;
+  font-size: 11px;
+  color: #444;
+  cursor: pointer;
+  transition:  0.2s linear;
+}
+
+button.accordion:after {
+  content: '\002B';
+  font-family: "fontawesome";
+  font-size: 14px;
+  float: left;
+}
+
+button.accordion.is-open:after {
+  content: '\2212';
+}
+
+
+.accordion-content {
+  background-color: white;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+
+	</style>
+</head>
+<body>
+	<div class="customer-care"> 
+		<div class="customer-care-left"> 
+			<table>
+			    <tr>
+			        <td><a href="#payment" class="button">PAYMENT</a></td>
+			        <td><a href="#ordering" class="button">ORDERING</a></td>
+			        <td><a href="#shipping" class="button">SHIPPING & DELIVERY</a></td>
+			        <td><a href="#returns" class="button">RETURNS</a></td>
+			        <td><a href="#faq" class="button">FAQ</a></td>
+			        <td><a href="#after-pay" class="button">AFTER PAY</a></td>
+			        <td><a href="#legal-policies" class="button">LEGAL POLICIES</a></td>
+			    </tr>
+			</table>
+		     
+	    </div>
+	    <div class="customer-care-right"> 
+		    <div id="payment">
+                  <h1>PAYMENT</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div> 
+
+		    <div id="ordering">
+		    	<h1>ORDERING</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div> 
+
+		    <div id="shipping">
+		    	<h1>SHIPPING & DELIVERY</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div> 
+
+		    <div id="returns">
+		    	<h1>RETURNS</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div> 
+
+		    <div id="faq">
+		    	<h1>FAQ</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div> 
+
+		    <div id="after-pay">
+		    	<h1>AFTER PAY</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div>
+
+		    <div id="legal-policies">
+		    	<h1>LEGAL POLICIES</h1>
+				    <button class="accordion">PAYMENT METHOD</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				   
+				    </div>
+
+
+				    <button class="accordion">PAYMENT SECURITY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+
+				    <button class="accordion">ORDER VARIFICATION</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+
+				    <button class="accordion">CURRENCY</button>
+				    <div class="accordion-content">
+				      <p>
+				        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas deleniti molestias necessitatibus quaerat quos incidunt! Quas officiis repellat dolore omnis nihil quo, ratione cupiditate! Sed, deleniti, recusandae! Animi, sapiente, nostrum?
+				      </p>
+				    </div>
+		    </div>  
+	    </div>
+
+	</div>
+<script src="scripts.js"></script>
+</body>
+</html>
